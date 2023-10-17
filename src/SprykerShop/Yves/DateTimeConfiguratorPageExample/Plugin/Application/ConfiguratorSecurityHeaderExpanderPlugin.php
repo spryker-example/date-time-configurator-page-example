@@ -5,7 +5,7 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Yves\DateTimeConfiguratorPageExample\Plugin\Application;
+namespace SprykerExample\Yves\DateTimeConfiguratorPageExample\Plugin\Application;
 
 use Spryker\Yves\ApplicationExtension\Dependency\Plugin\SecurityHeaderExpanderPluginInterface;
 

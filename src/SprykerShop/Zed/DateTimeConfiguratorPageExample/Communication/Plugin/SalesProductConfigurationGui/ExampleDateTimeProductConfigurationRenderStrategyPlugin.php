@@ -5,17 +5,17 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Communication\Plugin\SalesProductConfigurationGui;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Communication\Plugin\SalesProductConfigurationGui;
 
 use Generated\Shared\Transfer\ItemTransfer;
 use Generated\Shared\Transfer\SalesProductConfigurationTemplateTransfer;
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 use Spryker\Zed\SalesProductConfigurationGuiExtension\Dependency\Plugin\ProductConfigurationRenderStrategyPluginInterface;
-use SprykerShop\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
+use SprykerExample\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
 
 /**
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacade getFacade()
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig getConfig()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacade getFacade()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig getConfig()
  */
 class ExampleDateTimeProductConfigurationRenderStrategyPlugin extends AbstractPlugin implements ProductConfigurationRenderStrategyPluginInterface
 {

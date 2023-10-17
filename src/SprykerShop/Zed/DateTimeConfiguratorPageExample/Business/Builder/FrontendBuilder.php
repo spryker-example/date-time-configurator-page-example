@@ -5,10 +5,10 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Builder;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Builder;
 
 use Psr\Log\LoggerInterface;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
 use Symfony\Component\Filesystem\Exception\IOException;
 use Symfony\Component\Filesystem\Filesystem;
 
@@ -20,13 +20,13 @@ class FrontendBuilder implements FrontendBuilderInterface
     protected $filesystem;
 
     /**
-     * @var \SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig
+     * @var \SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig
      */
     protected $config;
 
     /**
      * @param \Symfony\Component\Filesystem\Filesystem $filesystem
-     * @param \SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig $config
+     * @param \SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig $config
      */
     public function __construct(Filesystem $filesystem, DateTimeConfiguratorPageExampleConfig $config)
     {

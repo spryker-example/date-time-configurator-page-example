@@ -8,7 +8,7 @@
 namespace SprykerTest\Yves\DateTimeConfiguratorPageExample\Business;
 
 use Codeception\Test\Unit;
-use SprykerShop\Yves\DateTimeConfiguratorPageExample\Plugin\Application\ConfiguratorSecurityHeaderExpanderPlugin;
+use SprykerExample\Yves\DateTimeConfiguratorPageExample\Plugin\Application\ConfiguratorSecurityHeaderExpanderPlugin;
 use SprykerTest\Yves\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleTester;
 
 /**

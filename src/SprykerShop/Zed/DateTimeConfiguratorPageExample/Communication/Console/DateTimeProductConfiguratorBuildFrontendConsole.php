@@ -5,14 +5,14 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Communication\Console;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Communication\Console;
 
 use Spryker\Zed\Kernel\Communication\Console\Console;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacadeInterface getFacade()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacadeInterface getFacade()
  */
 class DateTimeProductConfiguratorBuildFrontendConsole extends Console
 {

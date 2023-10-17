@@ -5,7 +5,7 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Business;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Business;
 
 use Generated\Shared\Transfer\ProductAvailabilityCriteriaTransfer;
 use Generated\Shared\Transfer\ProductConcreteAvailabilityTransfer;
@@ -14,7 +14,7 @@ use Psr\Log\LoggerInterface;
 use Spryker\Zed\Kernel\Business\AbstractFacade;
 
 /**
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleBusinessFactory getFactory()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleBusinessFactory getFactory()
  */
 class DateTimeConfiguratorPageExampleFacade extends AbstractFacade implements DateTimeConfiguratorPageExampleFacadeInterface
 {

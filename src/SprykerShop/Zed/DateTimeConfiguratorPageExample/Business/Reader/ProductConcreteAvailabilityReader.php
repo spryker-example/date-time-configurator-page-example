@@ -5,22 +5,22 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Reader;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Reader;
 
 use Generated\Shared\Transfer\ProductAvailabilityCriteriaTransfer;
 use Generated\Shared\Transfer\ProductConcreteAvailabilityTransfer;
 use Generated\Shared\Transfer\StoreTransfer;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface;
 
 class ProductConcreteAvailabilityReader implements ProductConcreteAvailabilityReaderInterface
 {
     /**
-     * @var \SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface
+     * @var \SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface
      */
     protected $availabilityFacade;
 
     /**
-     * @param \SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface $availabilityFacade
+     * @param \SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface $availabilityFacade
      */
     public function __construct(DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface $availabilityFacade)
     {

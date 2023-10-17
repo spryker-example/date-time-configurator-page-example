@@ -5,7 +5,7 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Client\DateTimeConfiguratorPageExample\Plugin\ProductConfiguration;
+namespace SprykerExample\Client\DateTimeConfiguratorPageExample\Plugin\ProductConfiguration;
 
 use Generated\Shared\Transfer\ProductConfiguratorRequestTransfer;
 use Spryker\Client\Kernel\AbstractPlugin;
