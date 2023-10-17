@@ -5,24 +5,24 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Business;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Business;
 
 use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Builder\FrontendBuilder;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Builder\FrontendBuilderInterface;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Reader\ProductConcreteAvailabilityReader;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Reader\ProductConcreteAvailabilityReaderInterface;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleDependencyProvider;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Builder\FrontendBuilder;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Builder\FrontendBuilderInterface;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Reader\ProductConcreteAvailabilityReader;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Reader\ProductConcreteAvailabilityReaderInterface;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleDependencyProvider;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface;
 use Symfony\Component\Filesystem\Filesystem;
 
 /**
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig getConfig()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig getConfig()
  */
 class DateTimeConfiguratorPageExampleBusinessFactory extends AbstractBusinessFactory
 {
     /**
-     * @return \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Reader\ProductConcreteAvailabilityReaderInterface
+     * @return \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Reader\ProductConcreteAvailabilityReaderInterface
      */
     public function createProductConcreteAvailabilityReader(): ProductConcreteAvailabilityReaderInterface
     {
@@ -30,7 +30,7 @@ class DateTimeConfiguratorPageExampleBusinessFactory extends AbstractBusinessFac
     }
 
     /**
-     * @return \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\Builder\FrontendBuilderInterface
+     * @return \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\Builder\FrontendBuilderInterface
      */
     public function createProductConfiguratorFrontendBuilder(): FrontendBuilderInterface
     {
@@ -38,7 +38,7 @@ class DateTimeConfiguratorPageExampleBusinessFactory extends AbstractBusinessFac
     }
 
     /**
-     * @return \SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface
+     * @return \SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface
      */
     public function getAvailabilityFacade(): DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface
     {

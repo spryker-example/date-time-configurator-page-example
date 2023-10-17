@@ -5,12 +5,12 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Yves\DateTimeConfiguratorPageExample\Plugin\ProductConfigurationShoppingListWidget;
+namespace SprykerExample\Yves\DateTimeConfiguratorPageExample\Plugin\ProductConfigurationShoppingListWidget;
 
 use Generated\Shared\Transfer\ProductConfigurationInstanceTransfer;
 use Generated\Shared\Transfer\ProductConfigurationTemplateTransfer;
 use Spryker\Yves\Kernel\AbstractPlugin;
-use SprykerShop\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
+use SprykerExample\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
 use SprykerShop\Yves\ProductConfigurationShoppingListWidgetExtension\Dependency\Plugin\ShoppingListItemProductConfigurationRenderStrategyPluginInterface;
 
 class ExampleDateTimeShoppingListItemProductConfigurationRenderStrategyPlugin extends AbstractPlugin implements ShoppingListItemProductConfigurationRenderStrategyPluginInterface

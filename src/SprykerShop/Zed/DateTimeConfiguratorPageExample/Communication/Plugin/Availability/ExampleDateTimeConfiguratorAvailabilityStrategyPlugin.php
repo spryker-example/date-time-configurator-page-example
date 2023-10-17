@@ -5,18 +5,18 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Zed\DateTimeConfiguratorPageExample\Communication\Plugin\Availability;
+namespace SprykerExample\Zed\DateTimeConfiguratorPageExample\Communication\Plugin\Availability;
 
 use Generated\Shared\Transfer\ProductAvailabilityCriteriaTransfer;
 use Generated\Shared\Transfer\ProductConcreteAvailabilityTransfer;
 use Generated\Shared\Transfer\StoreTransfer;
 use Spryker\Zed\AvailabilityExtension\Dependency\Plugin\AvailabilityStrategyPluginInterface;
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;
-use SprykerShop\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
+use SprykerExample\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
 
 /**
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig getConfig()
- * @method \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacadeInterface getFacade()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig getConfig()
+ * @method \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacadeInterface getFacade()
  */
 class ExampleDateTimeConfiguratorAvailabilityStrategyPlugin extends AbstractPlugin implements AvailabilityStrategyPluginInterface
 {

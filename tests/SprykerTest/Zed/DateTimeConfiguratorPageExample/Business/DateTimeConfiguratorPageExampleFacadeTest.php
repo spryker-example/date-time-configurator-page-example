@@ -13,8 +13,8 @@ use Generated\Shared\Transfer\ProductConcreteAvailabilityTransfer;
 use Generated\Shared\Transfer\ProductConfigurationInstanceTransfer;
 use Generated\Shared\Transfer\StoreTransfer;
 use Spryker\DecimalObject\Decimal;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleBusinessFactory;
-use SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleBusinessFactory;
+use SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface;
 
 /**
  * Auto-generated group annotations
@@ -75,12 +75,12 @@ class DateTimeConfiguratorPageExampleFacadeTest extends Unit
     protected const TEST_PRICE = 100000;
 
     /**
-     * @var \SprykerShop\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface|\PHPUnit\Framework\MockObject\MockObject
+     * @var \SprykerExample\Zed\DateTimeConfiguratorPageExample\Dependency\Facade\DateTimeConfiguratorPageExampleToAvailabilityFacadeInterface|\PHPUnit\Framework\MockObject\MockObject
      */
     protected $availabilityFacadeMock;
 
     /**
-     * @var \SprykerShop\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacadeInterface
+     * @var \SprykerExample\Zed\DateTimeConfiguratorPageExample\Business\DateTimeConfiguratorPageExampleFacadeInterface
      */
     protected $dateTimeConfiguratorPageExampleFacade;
 

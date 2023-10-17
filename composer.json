@@ -1,5 +1,5 @@
 {
-    "name": "spryker-shop/date-time-configurator-page-example",
+    "name": "spryker-example/date-time-configurator-page-example",
     "type": "library",
     "description": "DateTimeConfiguratorPageExample module",
     "license": "MIT",
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SprykerShop\\": "src/SprykerShop/"
+            "SprykerExample\\": "src/SprykerShop/"
         }
     },
     "autoload-dev": {

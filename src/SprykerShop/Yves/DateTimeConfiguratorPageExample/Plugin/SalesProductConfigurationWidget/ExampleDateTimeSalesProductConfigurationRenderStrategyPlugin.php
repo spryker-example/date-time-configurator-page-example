@@ -5,12 +5,12 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace SprykerShop\Yves\DateTimeConfiguratorPageExample\Plugin\SalesProductConfigurationWidget;
+namespace SprykerExample\Yves\DateTimeConfiguratorPageExample\Plugin\SalesProductConfigurationWidget;
 
 use Generated\Shared\Transfer\ProductConfigurationTemplateTransfer;
 use Generated\Shared\Transfer\SalesOrderItemConfigurationTransfer;
 use Spryker\Yves\Kernel\AbstractPlugin;
-use SprykerShop\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
+use SprykerExample\Shared\DateTimeConfiguratorPageExample\DateTimeConfiguratorPageExampleConfig;
 use SprykerShop\Yves\SalesProductConfigurationWidgetExtension\Dependency\Plugin\SalesProductConfigurationRenderStrategyPluginInterface;
 
 class ExampleDateTimeSalesProductConfigurationRenderStrategyPlugin extends AbstractPlugin implements SalesProductConfigurationRenderStrategyPluginInterface
